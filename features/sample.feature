@@ -6,4 +6,5 @@ Feature: Sample
     When User give email
     When user enters the details
     When user goes to search bar
-    When user select item
+    Then user select item
+    Then user proceeding to payment

@@ -22,6 +22,10 @@ import { Given, When, Then } from 'cucumber';
   });
 
 
-  When(/^user select item$/, () => {
+  Then(/^user select item$/, () => {
     samplePage.addToCart();
+  });
+
+  Then(/^user proceeding to payment$/, () => {
+    samplePage.proccedToPayment();
   });
